@@ -1,7 +1,9 @@
 {
   "channel_type": "web",
-  "model": "",
-  "open_ai_api_key": "YOUR API KEY",
+  "bot_type": "chatGPT",
+  "model": "wechat-ai-agent:latest",
+  "open_ai_api_base": "http://localhost:11434/v1",
+  "open_ai_api_key": "ollama",
   "claude_api_key": "YOUR API KEY",
   "text_to_image": "dall-e-2",
   "voice_to_text": "openai",
@@ -17,13 +19,12 @@
     "@bot"
   ],
   "group_name_white_list": [
-    "ChatGPT测试群",
-    "ChatGPT测试群2"
+    "ChatGPT测试群"
   ],
   "image_create_prefix": [
     "画"
   ],
-  "speech_recognition": true,
+  "speech_recognition": false,
   "group_speech_recognition": false,
   "voice_reply_voice": false,
   "conversation_max_tokens": 2500,
